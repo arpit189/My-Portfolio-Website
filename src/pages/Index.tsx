@@ -31,6 +31,29 @@ const Index = () => {
 
   const projects = [
     {
+      "title": "VisionFlux — AI Image Transformation SaaS",
+      "description": "High-throughput AI image transformation platform with sub-500 ms latency, seamless authentication, and integrated monetization for a scalable SaaS experience.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "MongoDB",
+        "Clerk",
+        "Cloudinary",
+        "Stripe",
+        "Shadcn",
+        "Tailwind CSS"
+      ],
+      "github": "https://github.com/arpit189/visionflux",
+      "demo": "https://visionflux-demo.com",
+      "metrics": [
+        "10,000+ images/month processed at < 500 ms latency",
+        "99.9% uptime with webhook-driven session sync",
+        "500+ Stripe transactions/month",
+        "40% reduction in search latency via Cloudinary AI tagging & Atlas Search"
+      ]
+    },
+    
+    {
       title: "WeTawk – Real-Time Chat App",
       description: "Scalable MERN architecture supporting 1,000+ concurrent users with JWT auth and MongoDB indexing. Achieved 40% latency reduction using Socket.io (200ms → 120ms) and 35% page load improvement via code splitting & Vite optimizations.",
       tech: ["React", "Node.js", "Socket.io", "MongoDB", "JWT", "Vite"],
@@ -46,22 +69,27 @@ const Index = () => {
       demo: "https://blogify-demo.com",
       metrics: ["40% engagement boost", "Real-time comments", "JWT authentication"]
     },
+  
     {
-      title: "CodeCollab – Real-Time Code Editor",
-      description: "Collaborative coding platform with live syntax highlighting and multi-user editing. Built with WebSockets for real-time synchronization and Monaco Editor for professional IDE experience.",
-      tech: ["React", "Monaco Editor", "WebSocket", "Express", "Redis", "Docker"],
-      github: "https://github.com/arpit",
-      demo: "https://codecollab-demo.com",
-      metrics: ["Real-time collaboration", "Multi-language support", "Zero-latency sync"]
-    },
-    {
-      title: "DataViz Dashboard – Analytics Platform",
-      description: "Interactive data visualization dashboard with dynamic charts and real-time updates. Features advanced filtering, export capabilities, and responsive design for mobile analytics.",
-      tech: ["Next.js", "D3.js", "Chart.js", "PostgreSQL", "TailwindCSS", "Vercel"],
-      github: "https://github.com/arpit",
-      demo: "https://dataviz-demo.com",
-      metrics: ["Interactive visualizations", "Real-time updates", "Mobile responsive"]
+      "title": "CollegeTips Photo Gallery",
+      "description": "An interactive, responsive photo gallery built with React, Vite, and Tailwind CSS. Features a masonry-style grid, smooth hover and scroll animations, smart category filtering, and an accessible fullscreen lightbox experience.",
+      "tech": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "JavaScript (ES6+)",
+        "Intersection Observer API"
+      ],
+      "github": "https://github.com/arpit189/college-tips-gallery",
+      "demo": "https://college-tips-gallery.vercel.app",
+      "metrics": [
+        "Responsive masonry layout (1–4 columns)",
+        "Smooth hover & fade-in animations",
+        "Keyboard-navigable, touch-friendly lightbox",
+        "WCAG 2.1 AA accessibility compliance"
+      ]
     }
+    
   ];
 
   const skills = [
